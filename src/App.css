@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;1,200&display=swap");
+
+:root {
+  --primaryColor: #5fb7ea;
+  --primaryRGBA: black;
+  --mainGrey: #fafafa;
+  --darkGrey: #5f5e5e;
+  --mainWhile: white;
+  --mainBlack: #222;
+  --mainTransition: all 0.3 ease-in-out;
+  --main-spacing: 0.3rem;
+}
+
+.text-title {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: var(--main-spacing);
+  text-transform: capitalize;
+}
+.text-main {
+  color: var(--primaryColor);
+}
+body {
+  font-family: "Fira Sans Condensed", sans-serif !important;
+  background: var(--mainGrey) !important;
+  color: var(--mainBlack);
+}
