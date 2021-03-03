@@ -2,19 +2,19 @@
 
 :root {
   --primaryColor: #5fb7ea;
-  --primaryRGBA: black;
+  --primaryRGBA: rgba(0, 0, 0, 0.3);
   --mainGrey: #fafafa;
   --darkGrey: #5f5e5e;
-  --mainWhile: white;
+  --mainWhite: white;
   --mainBlack: #222;
-  --mainTransition: all 0.3 ease-in-out;
+  --mainTransition: all 0.3s ease-in-out;
   --main-spacing: 0.3rem;
 }
 
 .text-title {
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: bold;
-  letter-spacing: var(--main-spacing);
+  font-family: "Akaya Telivigala", cursive !important;
+
+  letter-spacing: var(--main-spacing) !important;
   text-transform: capitalize;
 }
 .text-main {
